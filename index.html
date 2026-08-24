@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Friend Analyzer 🤖</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="matrix"></div>
+
+    <!-- ================= LOADING SCREEN ================= -->
+
+    <section id="loadingScreen" class="screen loading-screen">
+
+        <div class="scanner-icon">
+            🤖
+        </div>
+
+        <h1>FRIEND ANALYZER</h1>
+
+        <p class="subtitle">
+            Initiating advanced friendship analysis...
+        </p>
+
+        <div class="terminal">
+
+            <p id="terminalText">
+                Connecting to friendship database...
+            </p>
+
+        </div>
+
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+
+        <div class="progress-text">
+            <span id="progressNumber">0</span>%
+        </div>
+
+        <p id="loadingMessage">
+            Please wait...
+        </p>
+
+    </section>
+
+
+    <!-- ================= RESULT SCREEN ================= -->
+
+    <section id="resultScreen" class="screen result-screen hidden">
+
+        <div id="confetti"></div>
+
+        <p class="small-title">
+            🚨 ANALYSIS COMPLETE 🚨
+        </p>
+
+        <h2>
+            CONGRATULATIONS!
+        </h2>
+
+        <p class="official">
+            You have been officially
+        </p>
+
+        <h3>
+            TROLLED! 😂
+        </h3>
+
+
+        <!-- FRIEND PHOTO -->
+
+        <div class="photo-container">
+
+            <div class="photo-label">
+                TARGET DETECTED
+            </div>
+
+            <img
+                id="friendPhoto"
+                src="public/aman.png"
+                alt="Your friend"
+            >
+
+            <div class="arrow arrow-left">
+                ← Absolute legend
+            </div>
+
+            <div class="arrow arrow-right">
+                No words 💀 →
+            </div>
+
+        </div>
+
+
+        <!-- ANALYSIS CARD -->
+
+        <div class="achievement">
+
+            <div class="trophy">
+                🏆
+            </div>
+
+            <div>
+                <strong>ACHIEVEMENT UNLOCKED</strong>
+
+                <p>
+                    ⚡ Certified Meme Material ⚡
+                </p>
+            </div>
+
+        </div>
+
+
+        <button id="revengeButton" class="main-button">
+            😈 I WANT REVENGE
+        </button>
+
+
+        <!-- ================= REVERSE TROLL ================= -->
+
+        <div id="revengeSection" class="revenge hidden">
+
+            <h2>
+                REVENGE MODE ACTIVATED 😈
+            </h2>
+
+            <p>
+                Some highly scientific facts about you:
+            </p>
+
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="emoji">😴</div>
+
+                    <h4>SLEEP EXPERT</h4>
+
+                    <p>
+                        Champion of oversleeping.
+                        Gold medalist.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="emoji">🍕</div>
+
+                    <h4>FOODIE KING</h4>
+
+                    <p>
+                        Can eat 10 slices but
+                        still says "I'm hungry."
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="emoji">📱</div>
+
+                    <h4>PHONE ADDICT</h4>
+
+                    <p>
+                        "Just 5 minutes"
+                        somehow becomes 3 hours.
+                    </p>
+                </div>
+
+
+                <div class="card">
+                    <div class="emoji">🤡</div>
+
+                    <h4>NATURAL TALENT</h4>
+
+                    <p>
+                        Born to be funny...
+                        even when not trying.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <button id="againButton" class="secondary-button">
+                🔄 ANALYZE AGAIN
+            </button>
+
+        </div>
+
+
+        <footer>
+            Made with ❤️ to troll friends
+            <br>
+            <span>© 2026 Friend Analyzer</span>
+        </footer>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
